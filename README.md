@@ -3,7 +3,7 @@ FITNESSLYF GYM
 A comprehensive web application designed to deliver structured digital experiences. Below is an overview of the project proposal, implementation details, evaluation feedback, and references.
 
 1. Project Overview & Proposal
-2. 
+
 Goals & Objectives: To establish a clear, structured digital presence aligned with functional requirements.
 Current Analysis & Features: Comprehensive analysis of user requirements translated into intuitive web features.
 Design Aesthetic & Styling: A modern, accessible aesthetic styled using CSS to ensure layout consistency, clean typography, responsive grids, and visual hierarchy.
