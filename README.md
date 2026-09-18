@@ -5,8 +5,11 @@ A comprehensive web application designed to deliver structured digital experienc
 1. Project Overview & Proposal
 
 Goals & Objectives: To establish a clear, structured digital presence aligned with functional requirements.
+
 Current Analysis & Features: Comprehensive analysis of user requirements translated into intuitive web features.
+
 Design Aesthetic & Styling: A modern, accessible aesthetic styled using CSS to ensure layout consistency, clean typography, responsive grids, and visual hierarchy.
+
 
 3. Technical Implementation & Styling
 
@@ -23,6 +26,7 @@ project-root/
 │   └── images/
 └── README.md
 
+
 2. Cascading Style Sheets (CSS) Integration
 
 CSS was integrated to enhance structure, responsiveness, and visual appeal:
@@ -30,39 +34,55 @@ Linking: External stylesheet included via <link rel="stylesheet" href="css/style
 Layout & Alignment: Utilized Flexbox and CSS Grid for layout alignment across break points.
 Styling Rules: Implemented reset rules, clean typography, consistent color palettes, and responsive media queries.
 
+
 4. Evaluation & Feedback Integration
 
-Based on formal assessment criteria, the following areas have been identified and addressed:
-CategoryScoreEvaluator Feedback & Refinements
-Goals & Objectives 3 / 3 
-Goals are clear, detailed, and aligned with project outcomes.   
-Current Analysis 3 / 3 
-Analysis is thorough and insightful.   
-Features & Functionality 3 / 3
-Proposed features are comprehensive and well-detailed.   
-Design Aesthetic 2 / 2 
-Clear and well-defined design aesthetic.   
-Wireframes 0 / 2 
-Needs Improvement: Wireframes were missing; detailed layouts are being added.   
-Technical Requirements 2 / 2
-Technical requirements are clear and well-defined.   
-Timeline 1 / 2 
-Needs Improvement: Refined schedule to increase precision and clarity.   
-Budget 1 / 3 
-Needs Improvement: Expanded budget breakdown with itemized line items.   
-Two Proposals 2 / 5 
-Needs Improvement: Added second complete proposal variant.   
-Content Research 4 / 10 
-Needs Improvement: Sourced additional domain-relevant content and citations.   
-Sitemap & Planning 0 / 5 
-Needs Improvement: Created and integrated a complete visual sitemap.   
-File/Folder Structure 5 / 5 
-Well-organized, logical folder hierarchy.   
-HTML Layout & Tags 9 / 10 
-S emantic HTML5 structure fully implemented.   
-Website Content Depth 3 / 5
+Knowledge: Website Project Proposal: Goals and Objectives 3/3
 
-6. References
+Knowledge: Website Project Proposal: Current Analysis 3/3
+
+Knowledge: Website Project Proposal: Proposed Website Features and Functionality 3/3
+
+Knowledge: Website Project Proposal: Design Aesthetic 2/2
+
+Knowledge: Website Project Proposal: Wireframes 0/2
+
+Knowledge: Website Project Proposal: Technical Requirements 2/2
+
+Knowledge: Website Project Proposal: Proposal Timeline 1/2
+
+Knowledge: Website Project Proposal: Budget 1/2
+
+Skill Website Proposal: Two proposals 2/5
+
+Skill: Content Research and sourcing 4/10
+
+Skill: Website Structure and Planning 0/5
+
+Skill: File and Folder Structure 5/5
+
+Skill: HTML Structure and Basic Content: HTML Tags for Layout 9/10
+
+Skill: HTML Structure and Basic Content: HTML TAGS for Layout (CONTENT TAGS) 9/10
+
+Skill: HTML Structure and Basic Content: Sufficient Content Added to the Website 3/5
+
+Skill: HTML Structure and Basic Content: Menu/inks to Navigate Through the Website 5/5
+
+Skill: HTML Structure and Basic Content: Comments 0/5
+
+Skill: GitHub: Project Pushed with Multiple Descriptive Commits 4/5
+
+Skill: GitHub: README Document Contains All Relevant Information 4/5
+
+Skill: GitHub: Changelog Section Contains a Record of  Development 4/5
+
+Skill: References 2/5
+
+Total: 66/100
+
+
+5. References
 
 Duckett, J., 2011. HTML and CSS: Design and Build Websites. 
 
