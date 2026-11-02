@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/FitnessLyf-Gym/sitemap.xml
+Sitemap: https://github.com/ST10453368/ST10453368_Mpho-Fortune-Rakubu_WEDE5020_POE/sitemap.xml
