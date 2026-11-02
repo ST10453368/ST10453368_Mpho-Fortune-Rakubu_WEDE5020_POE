@@ -3,82 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitnesslyf Gym | Contact</title>
+    <title>Contact Us | FitnessLyf Gym</title>
+    <meta name="description" content="Contact FitnessLyf Gym with a question or feedback.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+    <header class="header">
+        <a href="index.html" class="logo">FITNESS<span>LYF</span></a>
+        <button class="menu-toggle" aria-expanded="false">Menu</button>
 
-<header>
-    <div class="logo">FITNESSLYF</div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="membership.html">Membership</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="membership.html">Membership</a>
-        <a href="contact.html" class="active">Contact</a>
-    </nav>
-</header>
+    <main>
+        <section class="page-banner">
+            <div class="info-box">
+                <h1>Contact Us</h1>
+                <p>We hope to hear from you.</p>
+            </div>
+        </section>
 
-<section class="page-header">
-    <h1>CONTACT US</h1>
-    <p>We would love to hear from you</p>
-</section>
+        <section class="container">
+            <div class="info-box">
+                <h2>Our Contact Details</h2>
+                <p>
+                   Please get in touch with us if you have any enquiries concerning our membership plans, services, or website.
+                </p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:fitnesslyf@gmail.com">fitnesslyf@gmail.com</a>
+                </p>
+            </div>
 
-<section class="section">
+            <form id="contact-form" class="form info-box">
+                <label for="contact-name">Full Name *</label>
+                <input type="text" id="contact-name" name="name"
+                       minlength="2" required>
 
-    <div class="contact-container">
+                <label for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" name="email" required>
 
-        <div class="contact-info">
+                <label for="contact-phone">Phone Number</label>
+                <input type="tel" id="contact-phone" name="phone"
+                       pattern="[0-9 +()-]{7,20}">
 
-            <h2>Get In Touch</h2>
+                <label for="contact-topic">Topic *</label>
+                <select id="contact-topic" name="topic" required>
+                    <option value="">Choose a topic</option>
+                    <option value="General question">General question</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Website problem">Website problem</option>
+                    <option value="Other">Other</option>
+                </select>
 
-            <p><strong>Address:</strong> 43 Parliament Street, Pretoria, South Africa</p>
+                <label for="contact-message">Your Message *</label>
+                <textarea id="contact-message" name="message"
+                          rows="5" minlength="10" required></textarea>
 
-            <p><strong>Phone:</strong> 011 636 7838</p>
+                <div class="checkbox-row">
+                    <input type="checkbox" id="contact-consent" required>
+                    <label for="contact-consent">
+                        I consent to sending my information with this message. *
+                    </label>
+                </div>
 
-            <p><strong>Email:</strong> info@fitnesslyfgym.co.za</p>
-
-            <p><strong>Opening Hours:</strong></p>
-
-            <p>Monday - Friday: 05:00 - 11:00</p>
-            <p>Saturday: 06:00 - 18:00</p>
-            <p>Sunday: 07:00 - 15:00</p>
-
-        </div>
-
-        <div class="contact-form">
-
-            <h2>Send Us A Message</h2>
-
-            <form>
-
-                <label>Name</label>
-                <input type="text" placeholder="Enter your name">
-
-                <label>Email</label>
-                <input type="email" placeholder="Enter your email">
-
-                <label>Phone</label>
-                <input type="tel" placeholder="Enter your phone number">
-
-                <label>Message</label>
-                <textarea rows="6" placeholder="Enter your message"></textarea>
-
-                <button type="submit">SEND MESSAGE</button>
-
+                <button type="submit" class="button">Prepare Email</button>
+                <p id="contact-status" class="form-status" aria-live="polite"></p>
             </form>
+        </section>
+    </main>
 
-        </div>
-
-    </div>
-
-</section>
-
-<footer>
-    <p>&copy; 2026 Fitnesslyf Gym. All Rights Reserved.</p>
-</footer>
-
+    <footer class="footer">
+        <p>FitnessLyf Gym</p>
+        <p>Email: <a href="mailto:fitnesslyf@gmail.com">fitnesslyf@gmail.com</a></p>
+        <p>&copy; <span class="current-year">2026</span> FitnessLyf Gym.</p>
+    </footer>
 </body>
 </html>

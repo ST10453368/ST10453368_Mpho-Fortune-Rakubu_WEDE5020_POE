@@ -3,74 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitnesslyf Gym | Home</title>
+    <title>Home | FitnessLyf Gym</title>
+    <meta name="description" content="Welcome to FitnessLyf Gym. Explore our services and membership options.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+    <header class="header">
+        <a href="index.html" class="logo">FITNESS<span>LYF</span></a>
 
-<header>
-    <div class="logo">FITNESSLYF</div>
+        <button class="menu-toggle" aria-expanded="false">
+            Menu
+        </button>
 
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="membership.html">Membership</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+        <nav class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="membership.html">Membership</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>Welcome to Fitnesslyf Gym</h1>
-        <p>Welcome to FITNESSLYF Gym, a place you are able to build muscles, <br> increase your strength, achieve your health goals/body goals & be able to pass your limits and reach new heights in your fitness journey.</p>
-        <a href="membership.html" class="btn">JOIN NOW</a>
+    <main>
+        <section class="hero">
+            <div class="hero-box">
+                <p class="small-title">YOUR FITNESS JOURNEY STARTS HERE</p>
+                <h1>Welcome to FitnessLyf Gym</h1>
+                <p>
+                    Welcome to FitNessLife Gym, where you may grow stronger, gain muscle, achieve your physical and health objectives, push yourself beyond your comfort zone, and attain new heights in your fitness life.
+                </p>
+                <a href="membership.html" class="button">View Memberships</a>
+                <a href="services.html" class="button button-dark">Our Services</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-title">
+                <h2>Why Choose FitnessLyf?</h2>
+                <p>You can achieve your fitness objectives by taking small steps to achieve them.</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Cardio Training</h3>
+                    <p>
+                        Cardio exercises improve your endurance and help you keep up an active lifestyle.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Strength Training</h3>
+                    <p>
+                        Use weights and resistance training to increase your strength.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Healthy Lifestyle</h3>
+                    <p>
+                        Develop good habits and aim to become healthier and more confident in yourself.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-title">
+                <h2>Our Gym Gallery</h2>
+                <p>To see an image in greater detail, click on it..</p>
+            </div>
+
+            <div class="gallery">
+                <img src="images/gym.svg" alt="FitnessLyf gym training area"
+                     class="gallery-image" tabindex="0">
+
+                <img src="images/cardio.svg" alt="Cardio training equipment"
+                     class="gallery-image" tabindex="0">
+
+                <img src="images/weights.svg" alt="Strength training weights"
+                     class="gallery-image" tabindex="0">
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="info-box">
+                <h2>Ready to Start?</h2>
+                <p>Take the first step towards your fitness goals.</p>
+                <a href="enquiry.html" class="button">Make an Enquiry</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>FitnessLyf Gym - Train Hard. Stay Strong. Live Healthy.</p>
+        <p>Email: <a href="mailto:fitnesslyf@gmail.com">fitnesslyf@gmail.com</a></p>
+        <p>&copy; <span class="current-year">2026</span> FitnessLyf Gym.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button id="close-lightbox" class="close-lightbox"
+                aria-label="Close image">&times;</button>
+        <img id="lightbox-image" src="images/gym.svg" alt="Large gym image">
+        <p id="lightbox-caption"></p>
     </div>
-</section>
-
-<section class="section">
-    <h2>Welcome to Fitnesslyf Gym</h2>
-
-    <p class="intro">
-        Fitnesslyf Gym is a modern fitness gym where one improve their strenth, endurance and build their body goals. It accomodates both unexperienced and experienced people who want to achieve their fitness goals.
-    </p>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Modern Equipment</h3>
-            <p>
-                Train with high quality gym equpment that will help with the muscles you are building.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Personal Training</h3>
-            <p>
-                Get personalized support from our team members who are experienced and will guilde through the workouts.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Friendly Community</h3>
-            <p>
-                Join any club that you will interested. There is joga, boxing,cardio, and group fitness training.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<section class="dark-section">
-    <h2>Ready To Start?</h2>
-    <p>Take the first step towards a healthier lifestyle.</p>
-    <a href="contact.html" class="btn">CONTACT US</a>
-</section>
-
-<footer>
-    <p>&copy; 2026 Fitnesslyf Gym. All Rights Reserved.</p>
-</footer>
-
 </body>
 </html>

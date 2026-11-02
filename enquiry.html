@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | FitnessLyf Gym</title>
+    <meta name="description" content="Send FitnessLyf Gym an enquiry about membership and fitness services.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">FITNESS<span>LYF</span></a>
+        <button class="menu-toggle" aria-expanded="false">Menu</button>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="membership.html">Membership</a>
+            <a class="active" href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="info-box">
+                <h1>Make an Enquiry</h1>
+                <p>Tell us what you want to know.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <form id="enquiry-form" class="form info-box">
+                <label for="enquiry-name">Full Name *</label>
+                <input type="text" id="enquiry-name" name="name"
+                       minlength="2" required>
+
+                <label for="enquiry-email">Email Address *</label>
+                <input type="email" id="enquiry-email" name="email" required>
+
+                <label for="enquiry-phone">Phone Number *</label>
+                <input type="tel" id="enquiry-phone" name="phone"
+                       pattern="[0-9 +()-]{7,20}" required>
+
+                <label for="enquiry-type">Enquiry Type *</label>
+                <select id="enquiry-type" name="enquiryType" required>
+                    <option value="">Choose an option</option>
+                    <option value="Gym services">Gym services</option>
+                    <option value="Membership">Membership</option>
+                    <option value="Sponsorship">Sponsorship</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="enquiry-plan">Membership Plan</label>
+                <select id="enquiry-plan" name="plan">
+                    <option value="Not selected">Not selected</option>
+                    <option value="Basic">Basic</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Premium">Premium</option>
+                </select>
+
+                <label for="enquiry-message">Your Message *</label>
+                <textarea id="enquiry-message" name="message"
+                          rows="5" minlength="10" required></textarea>
+
+                <div class="checkbox-row">
+                    <input type="checkbox" id="enquiry-consent" required>
+                    <label for="enquiry-consent">
+                        I consent to providing my information for this inquiry. *
+                    </label>
+                </div>
+
+                <button type="submit" class="button">Prepare Email</button>
+                <p id="enquiry-status" class="form-status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>FitnessLyf Gym</p>
+        <p>Email: <a href="mailto:fitnesslyf@gmail.com">fitnesslyf@gmail.com</a></p>
+        <p>&copy; <span class="current-year">2026</span> FitnessLyf Gym.</p>
+    </footer>
+</body>
+</html>

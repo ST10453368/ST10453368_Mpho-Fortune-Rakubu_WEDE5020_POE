@@ -3,72 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitnesslyf Gym | Services</title>
+    <title>Services | FitnessLyf Gym</title>
+    <meta name="description" content="Explore cardio, strength training and personal fitness services at FitnessLyf Gym.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+    <header class="header">
+        <a href="index.html" class="logo">FITNESS<span>LYF</span></a>
+        <button class="menu-toggle" aria-expanded="false">Menu</button>
 
-<header>
-    <div class="logo">FITNESSLYF</div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="services.html">Services</a>
+            <a href="membership.html">Membership</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html" class="active">Services</a>
-        <a href="membership.html">Membership</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+    <main>
+        <section class="page-banner">
+            <div class="info-box">
+                <h1>Our Services</h1>
+                <p>Choose a physical activity that fits your goals.</p>
+            </div>
+        </section>
 
-<section class="page-header">
-    <h1>OUR SERVICES</h1>
-    <p>Everything you need for your fitness journey</p>
-</section>
+        <section class="container">
+            <div class="info-box">
+                <h2>Search for a Service</h2>
+                <label for="service-search">Type a service name:</label>
+                <input type="search" id="service-search"
+                       class="search-input"
+                       placeholder="Search services...">
+                <p id="search-status" aria-live="polite">Showing all services.</p>
+            </div>
 
-<section class="section">
+            <div class="cards" id="service-list">
+                <div class="card searchable"
+                     data-search="cardio running stamina exercise">
+                    <h2>Cardio Training</h2>
+                    <p>
+                        Cardio exercises improve your endurance and help you keep up an active lifestyle.
+                    </p>
+                    <a href="enquiry.html" class="text-link">Enquire now</a>
+                </div>
 
-    <div class="cards">
+                <div class="card searchable"
+                     data-search="strength weights muscles resistance">
+                    <h2>Strength Training</h2>
+                    <p>
+                        Use weights and resistance training to increase your strength.
+                    </p>
+                    <a href="enquiry.html" class="text-link">Enquire now</a>
+                </div>
 
-        <div class="card">
-            <h3>Weight Training</h3>
-            <p>
-                Weights and other exercise equipment are available to help you build, gain muscules and strength.
+                <div class="card searchable"
+                     data-search="personal trainer coaching guidance">
+                    <h2>Personal Training</h2>
+                    <p>
+                        Create healthy habits and aim to improve your health and self-confidence.
+                    </p>
+                    <a href="enquiry.html" class="text-link">Enquire now</a>
+                </div>
+
+                <div class="card searchable"
+                     data-search="group fitness classes exercise">
+                    <h2>Group Fitness</h2>
+                    <p>
+                        Through group fitness sessions, individuals may work out together and motivate one another.
+                    </p>
+                    <a href="enquiry.html" class="text-link">Enquire now</a>
+                </div>
+            </div>
+
+            <p id="no-results" class="message hidden">
+                No services found. Try search again.
             </p>
-            <button>LEARN MORE</button>
-        </div>
+        </section>
+    </main>
 
-        <div class="card">
-            <h3>Cardio Training</h3>
-            <p>
-                Use treadmills, bicycles, and other cardio equpment to increase your heart health, fitness and edurance.
-            </p>
-            <button>LEARN MORE</button>
-        </div>
-
-        <div class="card">
-            <h3>Personal Training</h3>
-            <p>
-                Seek assistance from one of our personal trainers who can design an exercise program that aligns with your fitness goals.
-            </p>
-            <button>LEARN MORE</button>
-        </div>
-
-        <div class="card">
-            <h3>Group Classes</h3>
-            <p>
-                Participate in enjoyable and inspiring group workouts while working out with other gym members.
-            </p>
-            <button>LEARN MORE</button>
-        </div>
-
-    </div>
-
-</section>
-
-<footer>
-    <p>&copy; 2026 Fitnesslyf Gym. All Rights Reserved.</p>
-</footer>
-
+    <footer class="footer">
+        <p>FitnessLyf Gym</p>
+        <p>Email: <a href="mailto:fitnesslyf@gmail.com">fitnesslyf@gmail.com</a></p>
+        <p>&copy; <span class="current-year">2026</span> FitnessLyf Gym.</p>
+    </footer>
 </body>
 </html>
