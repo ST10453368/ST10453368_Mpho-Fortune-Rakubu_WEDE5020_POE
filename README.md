@@ -39,6 +39,3 @@ The forms prepare an email draft; they do not automatically send messages. Visit
 - JavaScript HTML DOM: https://www.w3schools.com/js/js_htmldom.asp
 - HTML Forms: https://www.w3schools.com/html/html_forms.asp
 
-Needs Improvement: Expanded content depth across all subpages
-
->>>>>>> 326df338f6aecee1ae31623c786cfd95e8255c1b
